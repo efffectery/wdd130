@@ -1,0 +1,37 @@
+#person {
+    border-radius: 50%;
+    border: 20px solid gray;
+}
+
+#desk {
+    border-radius: 50%;
+    border: 20px solid gray;
+    height: auto;
+}
+
+#logo{
+    border-radius: 50%;
+    border: 20px solid gray;
+}
+
+/* The main circles image (the container) */
+#circles {
+  display: inline;
+}
+
+/* Make the smaller images sit “on top of” the circle */
+#desk, #logo, #person {
+  width: 120px;             /* adjust sizes */
+  border-radius: 50%;       /* optional – makes them circular too */
+  border: 3px solid black;  /* gives a neat outline */
+}
+
+body {
+    background-color: gray;
+
+}
+
+
+* {
+    border: 5px solid black;
+}
